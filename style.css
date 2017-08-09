@@ -43,8 +43,12 @@ footer {
   text-align: center; }
 
 @media (max-width: 768px) {
-  img {
-    height: 250px; }
+  .box {
+    background-image: url("./images/rsu.jpeg");
+    width: 334pxpx;
+    height: 250px;
+    background-size: cover;
+    background-position: center center; }
 
   .block {
     display: flex;
@@ -52,8 +56,12 @@ footer {
     margin-right: 5%;
     margin-left: 5%; } }
 @media (min-width: 769px) {
-  img {
-    height: 500px; }
+  .box {
+    background-image: url("./images/rsu.jpeg");
+    width: 668px;
+    height: 500px;
+    background-size: cover;
+    background-position: center center; }
 
   .block {
     display: block;
